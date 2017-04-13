@@ -1,6 +1,6 @@
 
-uniform vec3 SEA_WATER_COLOR;
+uniform vec4 SEA_WATER_COLOR;
 void main ()
 {
-  gl_FragColor = vec4(SEA_WATER_COLOR,1.0);
+	gl_FragColor = SEA_WATER_COLOR;
 }
