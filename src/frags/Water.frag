@@ -19,5 +19,5 @@ void main ()
 	// Framebuffer reflection can have alpha > 1
 	reflectionTextureColor.a = 1.0;
 
-	gl_FragColor = reflectionTextureColor;
+	gl_FragColor = SEA_WATER_COLOR;
 }
