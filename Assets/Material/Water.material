@@ -39,6 +39,8 @@ material Water
 			vertex_program_ref Water_VP_GLSL
 			{
 				param_named_auto worldViewProj worldviewproj_matrix
+				param_named_auto currTime time
+				param_named_auto waveHeight float 0.5
 			}
 
 			fragment_program_ref Water_FP_GLSL
